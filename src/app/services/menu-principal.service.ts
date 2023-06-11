@@ -10,6 +10,6 @@ export class MenuPrincipalService {
   constructor(private http:HttpClient) { }
 
    getPizzasPrincipal(){
-    return this.http.get('/assets/db/menu-princial.json');
+    return this.http.get('./assets/db/menu-princial.json');
   }
 }

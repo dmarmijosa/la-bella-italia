@@ -9,6 +9,6 @@ export class TapasService {
   constructor(private http:HttpClient) { }
 
   getTapas(){
-   return this.http.get('/assets/db/tapas.json');
+   return this.http.get('./assets/db/tapas.json');
  }
 }
