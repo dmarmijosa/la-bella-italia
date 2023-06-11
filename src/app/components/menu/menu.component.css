@@ -1,0 +1,59 @@
+:host .d-inline-block {
+  display: inline-block;
+}
+.header-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.progress1 {
+  display: flex;
+  width: 100%;
+
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(8, 87, 66, 1) 49%,
+    rgba(20, 218, 69, 1) 100%
+  );
+
+  height: 5px;
+}
+.progress2 {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(218, 20, 20, 1) 12%,
+    rgba(87, 8, 15, 1) 49%,
+    rgba(89, 0, 0, 0.8911939775910365) 100%
+  );
+  height: 5px;
+}
+.titulo {
+  margin: 0 20px;
+}
+.main-img h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 43px;
+}
+:host .thumbnail{
+    border: none;
+}
+.thumbnail img{
+    position: relative;
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    border:2px solid #fff;
+    display: block;
+    transform: scale(1);
+}
+#buffet img{
+    border-radius: 15%;
+}
+.caption{
+    text-align: center;
+}

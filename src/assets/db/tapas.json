@@ -1,0 +1,66 @@
+{
+  "tapas": [
+    {
+      "nombre": "tapas.croqueta-p",
+      "ingredientes": [
+        "ingredientes.mozzarella",
+        "ingredientes.jamon-york",
+        "ingredientes.patata",
+        "ingredientes.parmesano"
+      ],
+      "precio": "1,30",
+      "promocion": false
+    },
+    {
+      "nombre": "tapas.croqueta-pol",
+      "precio": "1,30",
+      "promocion": false
+    },
+    {
+      "nombre": "tapas.bomba",
+      "ingredientes": ["ingredientes.patata", "ingredientes.carne-bolonesa"],
+      "precio": "1,50",
+      "promocion": false
+    },
+    {
+      "nombre": "tapas.zeppole",
+      "precio": "2,90",
+      "promocion": false
+    },
+    {
+      "nombre": "tapas.alitas-pollo-p",
+      "precio": "4,00",
+      "promocion": false
+    },
+    {
+      "nombre": "tapas.alitas-pollo-b",
+      "precio": "4,00",
+      "promocion": false
+    },
+    {
+      "nombre": "tapas.nuggets",
+      "precio": "3,00",
+      "promocion": false
+    },
+    {
+      "nombre": "tapas.patatas-fritas",
+      "precio": "2,90",
+      "promocion": false
+    },
+    {
+      "nombre": "tapas.anillos-cebolla",
+      "precio": "3,20",
+      "promocion": false
+    },
+    {
+      "nombre": "tapas.porcion-pizza",
+      "precio": "3,00",
+      "promocion": false
+    },
+    {
+      "nombre": "tapas.calzone-frito",
+      "precio": "4,30",
+      "promocion": false
+    }
+  ]
+}

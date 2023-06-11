@@ -1,0 +1,140 @@
+<div class="container padd-50 menu-sty-2 wow animate fadeInUp">
+  <div class="row">
+    <div class="col-sm-6 col-md-6">
+      <div class="col-md-12 col-sm-12">
+        <div class="heading">
+          <div class="header-img">
+
+            <div class="progress1"></div>
+            <h3 class="titulo">{{'l-pizzeria' | translate | uppercase}}</h3>
+            <div class="progress2"></div>
+          </div>
+          <div class="main-img">
+            <h3>LA BELLA ITALIA</h3>
+            <div class="main-post">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="thumbnail">
+                    <img src="./assets/img/OIG.jpeg" alt="...">
+                    <div class="caption">
+                      <h3>{{'l-martes' | translate | titlecase}}</h3>
+                      <p>{{'l-promocion'|translate|titlecase}} 3X2 </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="thumbnail">
+                    <img src="./assets/img/miercoles.jpeg" alt="...">
+                    <div class="caption">
+                      <h3>{{'l-miercoles' | translate | titlecase}}</h3>
+                      <p>{{'l-todas' | translate | titlecase}} 6,00€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div id="buffet" class="thumbnail buffet">
+                    <img src="./assets/img/buffet.jpeg" alt="...">
+                    <div class="caption">
+                      <h3>{{'l-jueves'| translate | titlecase}} </h3>
+                      <p>{{'l-promocion-j'| translate | titlecase}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div id="buffet" class="thumbnail buffet">
+                    <img src="./assets/img/productos.jpeg" alt="...">
+                    <div class="caption">
+                      <p>{{'l-produc-origen'| translate | titlecase}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12">
+          <div class="heading">
+            <h2>{{'l-nuestras-pizzas' | translate}}</h2>
+            <span class="btn-bg"></span>
+          </div>
+        </div>
+        <!--menu list-->
+        <div *ngFor="let item of menuPrincipal; let i = index"
+          [ngClass]="{'col-md-12 featured highlight': item.promocion}"> <span *ngIf="item.promocion"
+            class="box btn-bg"><b>FEATURED</b></span>
+          <div class="col-md-12 menu-sty-div section-starters">
+            <div class="menu-page-list-tit">
+              <h4><b>{{i+1}}. {{item.nombre | translate }}</b></h4>
+              <span class="dots"></span>
+            </div>
+            <div class="menu-item-price"><span>{{item.precio}} €</span></div>
+            <div class="menu-list__item-desc">[
+              <div *ngFor="let ingrediente of item.ingredientes; let i=index" class="menu-list-des d-inline-block">
+                <h4 style="margin: 0 1px;">{{ingrediente | translate}} {{i!=item.ingredientes.length-1?',':'' }}</h4>
+              </div>
+              ]
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6">
+      <div class="col-md-12 col-sm-12">
+        <div class="heading">
+          <h2>{{'l-tapas'|translate}}</h2>
+          <span class="btn-bg"></span>
+        </div>
+        <div *ngFor="let item of menuTapas; let i = index" [ngClass]="{'col-md-12 featured highlight': item.promocion}">
+          <span *ngIf="item.promocion" class="box btn-bg"><b>FEATURED</b></span>
+          <div class="col-md-12 menu-sty-div section-starters">
+            <div class="menu-page-list-tit">
+              <h4><b>{{i+1}}. {{item.nombre | translate }}</b></h4>
+              <span class="dots"></span>
+            </div>
+            <div class="menu-item-price"><span>{{item.precio}} €</span></div>
+            <div class="menu-list__item-desc">
+              <div *ngFor="let ingrediente of item.ingredientes; let i=index" class="menu-list-des d-inline-block">
+                <h4 style="margin: 0 1px;"> {{ingrediente | translate}} {{i!=item.ingredientes!.length-1?', ' :'' }}
+                </h4>
+              </div>
+
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6">
+      <div class="col-md-12 col-sm-12">
+        <div class="heading">
+          <h2>{{'l-nuestras-pizzas' | translate}}</h2>
+          <span class="btn-bg"></span>
+        </div>
+      </div>
+      <!--menu list-->
+      <div *ngFor="let item of menuPrincipal; let i = index"
+        [ngClass]="{'col-md-12 featured highlight': item.promocion}"> <span *ngIf="item.promocion"
+          class="box btn-bg"><b>FEATURED</b></span>
+        <div class="col-md-12 menu-sty-div section-starters">
+          <div class="menu-page-list-tit">
+            <h4><b>{{i+1}}. {{item.nombre | translate }}</b></h4>
+            <span class="dots"></span>
+          </div>
+          <div class="menu-item-price"><span>{{item.precio}} €</span></div>
+          <div class="menu-list__item-desc">[
+            <div *ngFor="let ingrediente of item.ingredientes; let i=index" class="menu-list-des d-inline-block">
+              <h4 style="margin: 0 1px;">{{ingrediente | translate}} {{i!=item.ingredientes.length-1?',':'' }}</h4>
+            </div>
+            ]
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>

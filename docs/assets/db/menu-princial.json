@@ -1,0 +1,164 @@
+{
+  "menuprincipal": [
+    {
+      "nombre": "nuestras-pizzas.margarita",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella"],
+      "precio": "6,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.marinara",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.ajo", "ingredientes.oregano"],
+      "precio": "6,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.milano",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.salami-picante"],
+      "precio": "8,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.napoli",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.anchoa", "ingredientes.oliva-negra"],
+      "precio": "8,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.torino",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.ch-frescos"],
+      "precio": "8,00",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.parma",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.jamon-york"],
+      "precio": "7,90",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.tropical",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.jamon-york", "ingredientes.maiz", "ingredientes.pina"],
+      "precio": "8,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.genova",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.berenjena", "ingredientes.pesto", "ingredientes.atun"],
+      "precio": "8,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.hortelana",
+      "ingredientes": [
+        "ingredientes.tomate",
+        "ingredientes.mozzarella",
+        "ingredientes.berenjena",
+        "ingredientes.pimiento",
+        "ingredientes.calabacin",
+        "ingredientes.ch"
+      ],
+      "precio": "8,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.quesos",
+      "ingredientes": [
+        "ingredientes.tomate",
+        "ingredientes.mozzarella",
+        "ingredientes.gorgonzola",
+        "ingredientes.emmenetal",
+        "ingredientes.ricotta",
+        "ingredientes.quezo-cabra"
+      ],
+      "precio": "8,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.catania",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.atun", "ingredientes.cebolla"],
+      "precio": "8,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.venezia",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.jamon-york", "ingredientes.ch-frescos"],
+      "precio": "8,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.bari",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.pollo", "ingredientes.gorgonzola"],
+      "precio": "8,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.mare-mare",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.gambas", "ingredientes.mejillones"],
+      "precio": "8,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.mare-monti",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.gambas", "ingredientes.ch-frescos"],
+      "precio": "9,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.huevo",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.beicon", "ingredientes.i-huevo"],
+      "precio": "9,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.capricciosa",
+      "ingredientes": [
+        "ingredientes.tomate",
+        "ingredientes.mozzarella",
+        "ingredientes.oliva-negra",
+        "ingredientes.alcachofa",
+        "ingredientes.i-huevo",
+        "ingredientes.ch-frescos"
+      ],
+      "precio": "6,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.toscana",
+      "ingredientes": [
+        "ingredientes.tomate",
+        "ingredientes.mozzarella",
+        "ingredientes.jamon-serrano",
+        "ingredientes.rucula",
+        "ingredientes.parmesano",
+        "ingredientes.aceite-oliva"
+      ],
+      "precio": "6,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.bolonesa",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.carne-pimienot"],
+      "precio": "6,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.calzone-b",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.jamon-york"],
+      "precio": "6,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.calzone-ch",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.jamon-york", "ingredientes.ch-frescos"],
+      "precio": "6,50",
+      "promocion": false
+    },
+    {
+      "nombre": "nuestras-pizzas.calzone-h",
+      "ingredientes": ["ingredientes.tomate", "ingredientes.mozzarella", "ingredientes.ch-frescos", "ingredientes.i-huevo"],
+      "precio": "6,50",
+      "promocion": false
+    }
+  ]
+}

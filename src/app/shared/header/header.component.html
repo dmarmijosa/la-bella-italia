@@ -1,0 +1,46 @@
+<!--header -->
+<header id="header" class="header">
+    <!-- mega menu -->
+    <div class="menu">
+        <!-- menu start -->
+        <nav id="menu-1" class="mega-menu ">
+            <!-- menu list items container -->
+            <section class="menu-list-items">
+                <div class="container" style="margin-left: 0px;">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <!-- menu logo -->
+                            <ul class="menu-logo">
+                                <li class="head-info"> <a href="index-leading-page.html"> <i
+                                            class="flaticon-dinner"></i> <img id="logo_img"
+                                            src="../../../assets/img/logo-text.png" alt="logo"> </a>
+                                    <div class="menu-mobile-collapse-trigger"><span></span></div>
+                                </li>
+                            </ul>
+                            <!-- menu links -->
+                            <ul class="menu-links" style="right: 0 ; display: none; max-height: 400px; overflow: auto;">
+                                <li class="hoverTrigger"> <a class="menu-style menu-li-a" href="javascript:void(0)">
+                                        {{'l-idiomas'| translate}} <i class="fa fa-angle-down fa-indicator"></i>
+                                        <div class="mobileTriggerButton"></div>
+                                    </a>
+                                    <!-- drop down multilevel  -->
+                                    <ul class="drop-down-multilevel effect-fade" style="transition: all 400ms ease 0s;">
+                                        <li><button class="menu-li-a-drop" (click)="cambiarIdioma('es')">Español</button></li>
+                                        <li><button class="menu-li-a-drop" (click)="cambiarIdioma('en')">English</button></li>
+                                        <li><button class="menu-li-a-drop" (click)="cambiarIdioma('ca')">Català</button></li>
+                                        <li><button class="menu-li-a-drop" (click)="cambiarIdioma('deu')">Deutsch</button></li>
+                                        <li><button class="menu-li-a-drop" (click)="cambiarIdioma('it')">Italiano</button></li>
+                                        <li><button class="menu-li-a-drop" (click)="cambiarIdioma('fra')">Français</button></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </nav>
+        <!-- menu end -->
+    </div>
+</header>
+<app-hero></app-hero>
